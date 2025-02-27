@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor test</title>
+  <style>
+    body {
+      padding:0;
+      margin:0;
+      width: 100vw;
+      height: 100vh;
+    }
+    .editor-container {
+      display: block;
+      border: 1px solid #0d9ba5;
+      background-color: rgb(64, 15, 64);
+      color: #ffffff;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="editor-container">
+    <div class="button-tray">
+      <button id="bold-button"><strong>B</strong></button>
+      <button id="italic-button"><em>I</em></button>
+      <button id="strike-button"><s>S</s></button>
+      <button id="code-button">&lt;/&gt;</button>
+      <button id="done-button">Save</button>
+    </div>
+    <div class="element"></div>
+  </div>
+  <script type="module" src="./source/main.js"></script>
+</body>
+</html>

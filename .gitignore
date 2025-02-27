@@ -1,3 +1,14 @@
+public
+*.zip
+.idea/
+.vscode/
+.versions/
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+secret.js
+
 # Logs
 logs
 *.log
